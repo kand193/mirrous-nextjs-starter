@@ -1,13 +1,13 @@
 import { AppProps } from "next/app";
 
-import Conatiner from "components/Container";
+import Container from "components/Container";
 
 import "../styles/globals.css";
 
 const MyApp = ({ Component, pageProps }: AppProps) => (
-  <Conatiner>
+  <Container>
     <Component {...pageProps} />
-  </Conatiner>
+  </Container>
 );
 
 export default MyApp;

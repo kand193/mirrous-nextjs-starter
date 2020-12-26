@@ -1,9 +1,9 @@
 import { FC } from "react";
 import styled from "styled-components";
 
-const Conatiner: FC = ({ children }) => <Wrapper>{children}</Wrapper>;
+const Container: FC = ({ children }) => <Wrapper>{children}</Wrapper>;
 
-export default Conatiner;
+export default Container;
 
 const Wrapper = styled.div`
   width: 90%;
