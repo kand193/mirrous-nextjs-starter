@@ -1,34 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# mirrous-nextjs-starter
 
-## Getting Started
+Next.js를 프로젝트에서 사용하려 할 때, 사용하기 쉽도록 만든 보일러플레이트 저장소입니다.
 
-First, run the development server:
+## Installation
+
+패키지 매니저로는 yarn을 사용하고 있습니다.  
+yarn이 없는 경우 설치해주세요
 
 ```bash
-npm run dev
-# or
-yarn dev
+brew install yarn
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+패키지 설치
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```bash
+yarn
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Tech Stack
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- React
+- TypeScript
+- Next.js
+- styled-components
+- eslint
+- stylelint
 
-## Learn More
+## Contributing
 
-To learn more about Next.js, take a look at the following resources:
+아직 부족한 보일러플레이트라서 개선에 도움을 주시면 감사하겠습니다.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[MIT](https://choosealicense.com/licenses/mit/)
