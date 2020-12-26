@@ -6,6 +6,28 @@
   "parser": "@typescript-eslint/parser",
   "plugins": ["@typescript-eslint"],
   "rules": {
-    "no-use-before-define": "off"
+    "no-use-before-define": "off",
+    "quotes": ["error", "double"],
+    "import/order": [
+      "error", {
+        "groups": [
+          "builtin", 
+          "external", 
+          "parent", 
+          "sibling", 
+          "index"
+        ],
+        "newlines-between": "always",
+        "alphabetize": {"order": "asc", "caseInsensitive": true}
+      }
+    ]
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"],
+        "moduleDirectory": ["node_modules", "src/"]
+      }
+    }
   }
 }
