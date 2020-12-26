@@ -1,5 +1,5 @@
-import React, { FC } from "react";
-import styled from "styled-components";
+import { FC } from 'react';
+import styled from 'styled-components';
 
 const Conatiner: FC = ({ children }) => <Wrapper>{children}</Wrapper>;
 

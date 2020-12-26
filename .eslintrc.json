@@ -1,0 +1,11 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 11
+  },
+  "extends": "airbnb-base",
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "rules": {
+    "no-use-before-define": "off"
+  }
+}
