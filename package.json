@@ -15,13 +15,11 @@
   "lint-staged": {
     "*.tsx": [
       "eslint --fix",
-      "stylelint --fix",
-      "git add *"
+      "stylelint --fix"
     ],
     "*.ts": [
       "eslint --fix",
-      "stylelint --fix",
-      "git add *"
+      "stylelint --fix"
     ]
   },
   "dependencies": {
