@@ -1,4 +1,5 @@
 import { AppProps } from "next/app";
+import React, { FC } from "react";
 import { createGlobalStyle } from "styled-components";
 
 import Container from "components/Container";
@@ -32,7 +33,7 @@ a {
 }
 `;
 
-const MyApp = ({ Component, pageProps }: AppProps) => (
+const MyApp: FC<AppProps> = ({ Component, pageProps }: AppProps) => (
   <>
     <GlobalStyle />
     <Container>
