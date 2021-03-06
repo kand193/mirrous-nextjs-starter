@@ -1,8 +1,9 @@
 import { AppProps } from "next/app";
 import React, { FC } from "react";
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle, ThemeProvider } from "styled-components";
 
 import Container from "components/Container";
+import defaultTheme from "utils/style/theme";
 
 const GlobalStyle = createGlobalStyle`
 html,
@@ -34,12 +35,12 @@ a {
 `;
 
 const MyApp: FC<AppProps> = ({ Component, pageProps }: AppProps) => (
-  <>
+  <ThemeProvider theme={defaultTheme}>
     <GlobalStyle />
     <Container>
       <Component {...pageProps} />
     </Container>
-  </>
+  </ThemeProvider>
 );
 
 export default MyApp;
